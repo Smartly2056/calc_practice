@@ -1,47 +1,48 @@
 <!DOCTYPE html>
 <html lang="ja">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>最後のけいさん</title>
-    <link rel="stylesheet" href="test.css">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>最後のけいさん</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-  <body>
-    <div id="quiz-container">
-      <div id="question-number"></div>
-      <h2 id="question"></h2>
+<body>
+  <div id="quiz-container">
+    <div id="question-number"></div>
+    <h2 id="question"></h2>
 
-      <form id="quiz-form" name="quizForm">
-        <ul id="choices">
-          <!-- <li>
+    <form id="quiz-form" name="quizForm">
+      <ul id="choices">
+        <!-- <li>
             <input type="radio" name="answer" id="0" value="0">
             <label for="0" ></label>
           </li> -->
-        </ul>
-      </form>
-      <button id="submit">回答する</button>
-    </div>
+      </ul>
+    </form>
+    <button id="submit">回答する</button>
+  </div>
 
-    <div id="timer">00:00.000</div>
-    
-    <!-- ホーム画面 -->
-    <div id="home-container">
-      <h1>最後のけいさん</h1>
-      <button id="start">START</button>
-    </div>
+  <div id="timer">00:00.000</div>
 
-    <!-- 結果表示用の要素 -->
-    <div id="results-container">
-      <div id="results">
-        <!-- 残念！ -->
-        <!-- <p>正解は 42098</p> -->
-      </div>
-      <button id="next-quiz">次の問題へ</button>
-      <button id="reset">ホームへ戻る</button>
-    </div>
+  <!-- ホーム画面 -->
+  <div id="home-container">
+    <h1>最後のけいさん</h1>
+    <button id="start">START</button>
+  </div>
 
-    <script src="test.js"></script>
-  </body>
+  <!-- 結果表示用の要素 -->
+  <div id="results-container">
+    <div id="results">
+      <!-- 残念！ -->
+      <!-- <p>正解は 42098</p> -->
+    </div>
+    <button id="next-quiz">次の問題へ</button>
+    <button id="reset">ホームへ戻る</button>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
 </html>
